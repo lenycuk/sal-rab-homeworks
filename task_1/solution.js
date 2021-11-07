@@ -6,12 +6,12 @@ function addInCartMessage(title, price) {
 
     let message;
     message = productName;// присвойте переменной message значение переменной productName
-    message = + ""; // добавьте в конец переменной message пробел
+    message = + " "; // добавьте в конец переменной message пробел
     message = + "за";// добавьте в конец переменной message текст 'за'
-    message = + "";// добавьте в конец переменной message пробел
+    message = + " ";// добавьте в конец переменной message пробел
     message = + productName;// добавьте в конец переменной message значение переменной productPrice
-    message = + ""; // добавьте в конец переменной message пробел
-    message = + "теперь в корзине";// добавьте в конец переменной message текст 'теперь в корзине!'
+    message = + " "; // добавьте в конец переменной message пробел
+    message = + "теперь в корзине!";// добавьте в конец переменной message текст 'теперь в корзине!'
     console.log(message);// выведите переменную message в консоль
 
     // Конец решения задания №1.1.
@@ -26,7 +26,7 @@ function addInCartCountChange(value) {
 
     let newValue; // создайте переменную newValue
     newValue = oldValue; // присвойте ей значение oldValue
-    oldValue = + 1; // увеличьте значение newValue на 1
+    newValue = + 1; // увеличьте значение newValue на 1
 
     // Конец решения задания №1.2.
 
@@ -43,7 +43,7 @@ function addInCartSumChange(sum, delta) {
     newSum = oldSum + difference;  // создайте переменную newSum и присвойте ей сумму oldSum и difference
     let newSumText;
     newSumText = newSum + "₽"; // создайте переменную newSumText и присвойте ей результат склеивания переменной newSum и текста ' ₽'
-    newSumText = "${newSum} ₽";// замените склеивание, используемое в newSum Text на шаблонную строку
+    newSumText = `${newSum} ₽`;// замените склеивание, используемое в newSum Text на шаблонную строку
 
     // Конец решения задания №1.3.
 
