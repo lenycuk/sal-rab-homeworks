@@ -4,7 +4,7 @@
    
     // Задание №3.1. Формирование строки корзины
   
-    let itemCountText = `${product.count} × ${product.price} ₽ = ${product.count * product.price}`;
+    let itemCountText = `${product.count} × ${product.price} ₽ = ${product.count * product.price} ₽`;
    
     // Конец решения задания №3.1.
 
